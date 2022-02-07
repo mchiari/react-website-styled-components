@@ -42,10 +42,10 @@ const Navbar = () => {
                         <NavLinks to='/' onClick={closeMobileMenu}>Home</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='/services' onClick={closeMobileMenu}>Services</NavLinks>
+                        <NavLinks to='/services' onClick={closeMobileMenu}>Serviços</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='/products' onClick={closeMobileMenu}>Products</NavLinks>
+                        <NavLinks to='/products' onClick={closeMobileMenu}>Produtos</NavLinks>
                     </NavItem>
                     <NavItemBtn onClick={closeMobileMenu}>
                         {button ? (
@@ -55,7 +55,7 @@ const Navbar = () => {
                         ) : (
                             <NavBtnLink to="/sign-up">
                                 <Button fontBig primary>
-                                    SIGN UP
+                                    Conectar-se
                                 </Button>
                             </NavBtnLink>
                         )}   

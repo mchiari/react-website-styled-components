@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavbarContainer>
                 <NavLogo to="/" onClick={closeMobileMenu}>
                     <NavIcon />
-                    BE CARE
+                    COMPANY
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}

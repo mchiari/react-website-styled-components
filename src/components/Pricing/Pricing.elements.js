@@ -1,3 +1,4 @@
+import 'animate.css';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -14,11 +15,21 @@ export const PricingWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  animation: 0.6s ease 0s 1 normal forwards running animaSlideUp;
+  
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  @keyframes animaSlideUp{
+    from{
+    transform: scale(0.1);
+    }to{
+    transform: scale(1.2);
+    }
   }
 `;
 

@@ -10,7 +10,7 @@ const InfoSection = ({ primary, lightBg, imgStart, lightTopLine, lightText, ligh
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
-                            <TextWrapper>
+                            <TextWrapper start={start}>
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
